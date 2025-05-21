@@ -222,6 +222,15 @@ class _GarageControlPageState extends State<GarageControlPage> {
                 textStyle: const TextStyle(fontSize: 18),
               ),
             ),
+            const SizedBox(height: 40),
+            const Text(
+              'Developed by Beyza Güneş',
+              style: TextStyle(
+                fontSize: 14,
+                color: Colors.black54,
+                fontStyle: FontStyle.italic,
+              ),
+            ),
           ],
         ),
       ),
